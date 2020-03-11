@@ -2,7 +2,7 @@
 $servername ="localhost";
 $username= "root";
 $password= "password";
-$dbname = "mocktest";
+$dbname = "gpta";
 
 
 
@@ -16,16 +16,16 @@ if(session_id() == '') {
 }
 
 $username=$_SESSION['login_user'];
-$sql="select * from faculty_login where username='".$username."'";
+$sql="select * from login where username='".$username."'";
 $result= mysqli_query($conn,$sql);
 $row= mysqli_fetch_assoc($result);
 $login_session=$row['username'];
-$privilege=$row['privilege'];
+$privilage=$row['privilage'];
 $id=$row['id'];
 
 if (!isset($login_session)) {
-	mysql_close($conn);
-	header('Location:../facultylogin.php');
+	mysqli_close($conn);
+	header('Location:../login.php');
 }
    $expireTime = 20;
 

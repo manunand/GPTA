@@ -12,7 +12,7 @@
 			<div class="row">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8 banner-image">
-					<img src="./img/gpta.jpg" class="img-responsive">
+					<img src="../img/gpta.jpg" class="img-responsive">
 				</div>
 				<div class="col-sm-2"></div>
 			</div>
