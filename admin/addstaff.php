@@ -39,17 +39,17 @@
 						</div>
 					</div><br>
 					<div class="form-group">
-						<label class="control-label col-sm-2" for="phone">Phone Number:</label>
-						<div class="col-sm-9">
-							<input type="Number" name="phone" style="background-color: transparent;" class="form-control" required="" id="phone" placeholder="Enter Your Phone Number">
-						</div>
-					</div><br>
-					<div class="form-group">
 						<label class="control-label col-sm-2" for="email">Email:</label>
 						<div class="col-sm-9">
 							<input type="email" name="email" style="background-color: transparent;" class="form-control" required="" id="email" placeholder="Enter email">
 						</div>
 					</div><br>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="phone">Phone Number:</label>
+						<div class="col-sm-9">
+							<input type="Number" name="phone" style="background-color: transparent;" class="form-control" required="" id="phone" placeholder="Enter Your Phone Number">
+						</div>
+					</div><br>					
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="address">Address</label>
 						<div class="col-sm-9">

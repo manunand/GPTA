@@ -28,24 +28,24 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.php"><b><?php echo $lang['home']; ?></b></a></li>
 				<li class="dropdown">
-		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b>About Us</b><span class="caret"></span></a>
+		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b><?php echo $lang['about_us']; ?></b><span class="caret"></span></a>
 		          	<ul class="dropdown-menu" style="background-color: transparent;">
-			            <li><a href="history.php" ><b>History</b></a></li>
-			            <li><a href="academics.php" ><b>Academics</b></a></li>
+			            <li><a href="history.php" ><b><?php echo $lang['history']; ?></b></a></li>
+			            <li><a href="academics.php" ><b><?php echo $lang['academics']; ?></b></a></li>
 			        </ul>
 		        </li>
 		        <li class="dropdown">
-		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b>Departments</b><span class="caret"></span></a>
+		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b><?php echo $lang['departments']; ?></b><span class="caret"></span></a>
 		          	<ul class="dropdown-menu" style="background-color: transparent;">
-			            <li><a href="civildept.php" ><b>Civil Engineering</b></a></li>
-			            <li><a href="csedept.php" ><b>Computer Science Engg</b></a></li>
-			            <li><a href="ecedept.php" ><b>Electronics and Communication</b></a></li>
-			            <li><a href="medept.php" ><b>Mechanical Engineering</b></a></li>
+			            <li><a href="civildept.php" ><b><?php echo $lang['civil']; ?></b></a></li>
+			            <li><a href="csedept.php" ><b><?php echo $lang['comp']; ?></b></a></li>
+			            <li><a href="ecedept.php" ><b><?php echo $lang['elect']; ?></b></a></li>
+			            <li><a href="medept.php" ><b><?php echo $lang['mech']; ?></b></a></li>
 			        </ul>
 		        </li>
-		        <li><a href="cources.php"><b>Cources Offered</b></a></li>
+		        <li><a href="cources.php"><b><?php echo $lang['course']; ?></b></a></li>
 		        <li class="dropdown">
-		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b>Our Faculty</b><span class="caret"></span></a>
+		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b><?php echo $lang['ourfac']; ?></b><span class="caret"></span></a>
 		          	<ul class="dropdown-menu" style="background-color: transparent;">
 			            <li><a href="civilstaff.php" ><b>Civil Engineering Staff</b></a></li>
 			            <li><a href="csestaff.php" ><b>Computer Science Engg Staff</b></a></li>
@@ -54,13 +54,13 @@
 			            <li><a href="officestaff.php" ><b>Office Staff</b></a></li>
 			        </ul>
 		        </li>
-				<li><a href="login.php"><b>Login</b></a></li>
+				<li><a href="login.php"><b><?php echo $lang['login']; ?></b></a></li>
 			</ul>
 			</div>
 		</div>
 	</nav>
 	<div class="lang_links bg-dark">
-		<a href="index.php?lang=en"><?php echo $lang['lang_en']; ?></a> | <a href="index.php?lang=kn"><?php echo $lang['lang_kn']; ?></a>
+		<a href="index.php?lang=en"><input type="button" class="btn btn-primary" value="<?php echo $lang['lang_en']; ?>"></a><a href="index.php?lang=kn"><input type="button" class="btn btn-primary" value="<?php echo $lang['lang_kn']; ?>"></a>
 	</div>
 </body>
 </html>

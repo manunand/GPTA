@@ -12,7 +12,7 @@
 			<div class="container" style="border:solid thick white;border-radius: 10px;">
 				<h2 class="well well-sm" style="background-color:transparent; animation-duration: 3s;text-shadow:1px 1px 8px black; color: white"><b>Computer Science Staff Details</b></h2><br>
 				<div class="table-responsive w3-animate-zoom">
-					<table class="table table-striped" style="color: white; font-weight: bold;text-shadow: 2px 2px 4px white">
+					<table class="table table-striped" style="color: ; font-weight: bold;text-shadow: 2px 2px 4px white">
 						<thead>
 							<tr>
 								<th style="color: black; font-size: 20px"><b>ID</b></th>
@@ -36,7 +36,7 @@
 									if ($conn->connect_error) {
 										die("Connection failed: ");
 									}
-									$sql="select * from admin where branch='CSE'";
+									$sql="select * from staff where branch='CSE'";
 									$result=mysqli_query($conn, $sql);
 									if ($result-> num_rows >0) {
 										while ($row= $result-> fetch_assoc()) {

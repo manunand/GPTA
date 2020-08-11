@@ -19,7 +19,7 @@ $phone=($_POST['phone']);
 $email =($_POST['email']);
 $address =($_POST['address']);
 $desig = ($_POST['desig']);
-						$query="insert into admin(name,gender,branch,email,phone,address,desig) values('$name','$gender','$branch','$email','$phone','$address','$desig')";
+						$query="insert into staff(name,gender,branch,email,phone,address,desig) values('$name','$gender','$branch','$email','$phone','$address','$desig')";
 						$res = mysqli_query($conn,$query);
 						if(mysqli_affected_rows($conn)>0) {
 							?><br><br><br>
